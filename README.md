@@ -1,7 +1,7 @@
 # Kubernetes - Zero to Hero
-***
+---
 ## Day 1: Understanding Docker Fundamentals
-***
+---
 #### Introduction to Docker
 - What is Docker?
 #### Docker vs Virtual Machines

@@ -12,7 +12,11 @@
 - Dockerfile
 - Docker Hub
 #### Docker Architecture
+![0_kDJEckrqtk653KL_](https://github.com/user-attachments/assets/da263dca-86c2-4141-8976-58e8f9d5a9b7)
 #### Docker Commands
-
+- docker build
+- docker run
+- docker rm
+- docker rmi
 
 

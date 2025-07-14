@@ -40,6 +40,10 @@ A Docker registry stores Docker images. Docker Hub is a public registry that any
 
 ## Docker installation
 
+#### Installing docker on ubuntu
+
+1. Set up Docker's apt repository
+
 ```sh
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -54,4 +58,16 @@ echo \
   $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
+```
+
+2. Install the Docker packages
+
+```sh
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+3. Verify that the installation is successful by running the hello-world image
+
+```sh
+sudo docker run hello-world
 ```

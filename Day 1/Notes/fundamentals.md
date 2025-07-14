@@ -4,7 +4,7 @@
 Container is a standard unit of software that packages application and its dependencies so the application runs quickly and reliably from one computing environment to another. A container is a lightweight, standalone, and executable package that includes everything needed to run a piece of software—such as the code, runtime, system tools, libraries, and settings.
 
 ## What is Docker?
-Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build container images, run the images to create containers and also push these containers to container registries such as DockerHub. Docker is an open-source platform designed to help developers build, ship, and run applications inside containers. It simplifies application deployment by packaging the app and all its dependencies into a single, portable unit that runs reliably in different environments.
+Docker is an open-source platform designed to help developers build, ship, and run applications inside containers. It simplifies application deployment by packaging the app and all its dependencies into a single, portable unit that runs reliably in different environments. It is a platform that provides easy way to containerize your applications, which means, using Docker you can build container images, run the images to create containers and also push these containers to container registries such as DockerHub. 
 
 ## What is virtualization?
 Virtualization is the process of creating a virtual version of something—most commonly, a computer system, including its operating system, storage, and hardware resources. It allows multiple virtual machines or environments to run on a single physical machine.

@@ -12,13 +12,13 @@
 - Scheduler
 - Controller Manager
 
-#### KubeAPI Server
+## KubeAPI Server
 
-#### ETCD
+## ETCD
 
-#### Scheduler
+## Scheduler
 
-#### Controller Manager
+## Controller Manager
 
 ## Worker Nodes
 
@@ -27,9 +27,9 @@
 - kube-proxy
 - container runtime
 
-#### Kubelet
+## Kubelet
 
-#### Kube-proxy
+## Kube-proxy
 
-#### Container runtime
+## Container runtime
 

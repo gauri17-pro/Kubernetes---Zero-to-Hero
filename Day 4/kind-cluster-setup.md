@@ -8,3 +8,5 @@
 - Install Chocolatey
 
 #### Installation steps
+
+```choco install kind```

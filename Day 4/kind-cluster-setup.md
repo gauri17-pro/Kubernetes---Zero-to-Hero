@@ -9,4 +9,6 @@
 
 #### Installation steps
 
-```choco install kind```
+```
+choco install kind
+```

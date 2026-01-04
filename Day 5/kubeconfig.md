@@ -6,6 +6,27 @@
 - When you use kubectl, it uses the information in the kubeconfig file to connect to the Kubernetes cluster API.
 - The default location of the Kubeconfig file is `$HOME/.kube/config`
 
+- Commands for config
+
+1. Get the context details
+```
+kubectl config get-contexts
+```
+
+2. To view merged config
+```
+KUBECONFIG=~/.kube/config:~/.kube/kubconfig2
+```
+
+3. To display the current-context
+```
+kubectl config current-context  
+```
+
+4. Set the default context
+```
+kubectl config use-context my-cluster-name  
+```
 
 
 

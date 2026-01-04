@@ -28,5 +28,9 @@ kubectl config current-context
 kubectl config use-context my-cluster-name  
 ```
 
+## Authentication process 
+<img width="1267" height="767" alt="image" src="https://github.com/user-attachments/assets/4eb4f737-fa6e-4acf-89f2-241f4750c2ec" />
+
+
 
 

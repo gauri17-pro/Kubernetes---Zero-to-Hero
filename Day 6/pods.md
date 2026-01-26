@@ -58,3 +58,24 @@ Used for **testing, learning, or one-time tasks**.
 #### ▶ Run a Pod
 ```bash
 kubectl run nginx-test --image=nginx
+```
+
+### Declarative Way (Manifest Files)
+
+Used in real-world projects and production.
+Desired state is defined in YAML and stored in version control.
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod
+  labels:
+    env: development
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:latest
+      ports:
+        - containerPort: 80
+```

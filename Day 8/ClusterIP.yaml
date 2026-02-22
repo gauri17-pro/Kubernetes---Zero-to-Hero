@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-deployment  
+spec:
+  replicas: 3 
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp 
+    spec:
+      containers: 
+        - name: myapp-container
+          image: hashicorp/http-echo:latest
+          ports:
+            - containerPort: 80
+          args: 
+            - "-text=Hello from pods"
+
+---
+apiVersion: v1
+kind: Service 
+metadata:
+  name: myapp-cluster-ip
+spec:
+  type: ClusterIP
+  selector:
+    app: myapp
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

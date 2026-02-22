@@ -131,7 +131,6 @@ spec:
 ```
 
 ------------------------------------------------------------------------
-
 # 🔥 Comparison Table
 
   Feature                        ReplicationController   ReplicaSet        Deployment
@@ -143,7 +142,6 @@ spec:
   Manages ReplicaSet             ❌                      ❌                ✅
   Recommended for production     ❌                      ❌ (direct use)   ✅
 
-------------------------------------------------------------------------
 
 # 📌 Summary
 

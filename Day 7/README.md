@@ -133,14 +133,14 @@ spec:
 ------------------------------------------------------------------------
 # 🔥 Comparison Table
 
-  Feature                        ReplicationController   ReplicaSet        Deployment
-  ------------------------------ ----------------------- ----------------- ------------
-  Maintains Pod replicas         ✅                      ✅                ✅
-  Supports set-based selectors   ❌                      ✅                ✅
-  Rolling updates                ❌                      ❌                ✅
-  Rollback support               ❌                      ❌                ✅
-  Manages ReplicaSet             ❌                      ❌                ✅
-  Recommended for production     ❌                      ❌ (direct use)   ✅
+| Feature | ReplicationController | ReplicaSet | Deployment |
+|---------|----------------------|------------|------------|
+| Maintains Pod replicas | ✅ | ✅ | ✅ |
+| Supports set-based selectors | ❌ | ✅ | ✅ |
+| Rolling updates | ❌ | ❌ | ✅ |
+| Rollback support | ❌ | ❌ | ✅ |
+| Manages ReplicaSet | ❌ | ❌ | ✅ |
+| Recommended for production | ❌ | ❌ (direct use) | ✅ |
 
 
 # 📌 Summary
